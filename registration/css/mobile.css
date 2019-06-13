@@ -1,0 +1,185 @@
+@media screen and (min-width: 320px) and (max-width: 480px), screen and (min-width: 320px) and (max-width: 568px), screen and (min-width: 375px) and (max-width: 667px)
+{
+html,body{overflow-x:hidden; -webkit-overflow-scrolling: touch}
+h1{font-size: 1.5em; line-height:24px;}
+h2{font-size: 1.2em; line-height: 25px; color: #000000;}
+h3{font-size: 1em; line-height: 20px; color: #000000;}
+h4{font-size: 1em; line-height: 18px; color: #75787B;}
+h5{font-size: 0.8em; line-height: 14px; color: #75787B;}
+h6{font-size: 0.7em; line-height: 12px; color: #75787B;}
+header{padding:5px 10px 0 10px}
+header, .footermenus{margin:0px !important}
+#topsearch, #clearclose, div#AbtBitwiseHome, .footermenus,.footerLogo, div#nav-anchor,nav.menu-in,.InnerHeads p, 
+.hideMobile, .HideTags, .HideAuthor, .rowlist .col-md-9 p, .JobContent a.btn-red, .JobContent p{display:none}
+div.logo, div.top-rt, .rtmenus{ }
+section, .banenrInner, .fix-width, .blockquotes{width:100%; float:left}
+.footermenus ul {display:block}
+.footermenus ul>li ul{margin-bottom:10px}
+.divblocks{padding:10px}
+.top-logo, footer .divblocks{margin:0px}
+footer span.top-logo {display:block}
+footer{background:#fff;border:0}
+ul.nav > li {display:block;border-top:1px solid #dadada}
+ul.nav{float:none}
+.carousel-caption {padding-left:1%}
+.carousel-caption p{margin:0px}
+.bottomlogo{display:block;padding-left:10px}
+.bottomlogo img{ width:150px}
+.searchHome {padding:0px 10px}
+.carousel-indicators{padding:0px; }
+.ssba-wrap {margin:0 0 20px 0; width:100%; float:left}
+div.logo {margin:0px}
+div.logo img {padding:0 0 0 10px; width:150px}
+.carousel-caption h1, .BannerImageContent h1{margin:10px 0 0 0; width:76%}
+.carousel-caption h3{margin: 10px 0;line-height: 16px;}
+.carousel-caption .btn-red {padding:0px 10px;font-size:0.8em}
+h3.widthshort{width:50%}
+.navbar-default{margin-top:0px}
+#paddingbtm-60px{padding-bottom:0px}
+.LandingHeader {min-height:150px}
+.InnerHeads hr{margin:20px 0}
+hr.no-margin {margin-top:0px}
+.LandingHeader h1, .LandingHeader h3{margin:3% 0 0 1.5%}
+/* Added at line 17 and 14 also*/
+.page-header{height:100%; padding:0px 5px 5px 5px}
+.banenrInner {padding:10px 0}
+.section-title {font-size:1.65em; line-height:36px; margin:0px}
+span.subtitle {font-size:1.2em; line-height:28px}
+.blockquotes{padding:5px; font-size:1.02em; line-height:28px}
+.InternalContent .col-md-3 img{margin: 5% 6% 2% 4%;width: 15%;float: left;}
+.InternalContent h1{margin-top:15px}
+.GrayBg{padding:5px}
+.GrayBg h3{font-size:inherit;margin-left:23px}
+.ResourcesBlock {margin:0px auto}
+.CenterTxt .ssba-wrap {display: block;    margin: 0px auto;float: none;width: 51%;}
+/* Delete This*/#VideoDelete img{width:100%; height:auto}
+.RequestCons{padding:10px; display:table}
+.RequestCons p{font-size: 1.65em;}
+.RequestCons span{font-size: 1em;}
+.centerBtn a{margin:10px 0}
+.mobile-link{display:block; float:right;margin-top:-28px; opacity:0.3; width:100%}
+.mobile-link-abt{display:block; float:right;margin:-48px 10px 0 0; opacity:0.3; width:100%}
+.zeromargin{margin:0px}
+/*
+.mobile-link-abt{display:block;opacity:0.3; width:100%; position:relative;top:18px;right:10px}*/
+.InnerHeads h1, ul.MobAboutLinks li h1{width:80%; font-size:1em}
+.InnerHeads hr{display:none}
+.InnerHeads li{padding:20px 5px}
+#slidingContent {display:block;width: 100%;height: 100%;background-color: #fff;z-index: 99999; padding:10px; position:absolute}
+#slidingContent h1{padding-top:10px}
+ul.SlidingList li{border-bottom:1px solid #ccc}
+.btn-back{background:url(../images/left%20arrow59.png) no-repeat; height:24px;width:24px; padding:5px;display:block;float:right; opacity:0.5}
+div.Btn-BackBg{width:100%; border-bottom:1px solid #F1F1F1; padding:10px; display:table}
+div.slidingContent {font-size:70%}
+span#rtarrow{height:32px; width:32px; display:block; position:relative;float:right} 
+.demoSpan1{overflow:hidden; width:25px;}
+.demoSpan1:before{content:''; height:20px; width:20px; display:block; border:3px solid #333; border-left-width:0; border-top-width:0; transform:rotate(-45deg); -webkit-transform:rotate(-45deg);position:absolute; top:7px; right:7px;}
+.BannerImageContent{left:1%; padding:0px}
+.slider-text h3{width:85%}
+div.slider-text{padding-top:1%}
+div.BlogPanel .ResourcesBlock{margin:9% 9% 0 9%; }
+.BlogPage{padding:5px 10px}
+.EmailSubscribe p > input[type=text]{width:64%}
+.BlogPage .BlogContent img{width:100%; height:auto}
+.JobsList .col-sm-3 .JobContent{margin:0 0 10px 0}
+.jobs-header{height: auto;padding: 10px;float:left}
+/* Height is inline in desktop Ver*/
+.JobsList .col-sm-3 h3, .JobsList .col-sm-3 p, .JobsList .col-sm-3 .JobContent {height:auto !important; width:99%;margin:5px 0 0 }
+.JobsList .col-sm-3 .JobContent{border:0px}
+.JobsDescription{padding:5px}
+.JobForm{margin:0px auto; display:table}
+.JobsList .col-sm-3 .JobContent a.mobile-link{margin:-28px -8px 0 0}
+.abtus-mob h1{width:100%}
+ul#MobileAbtus li h1{width:90%; text-align:left; display: table-cell;float:left;font-size:1em;padding-left:5px} 
+ul#MobileAbtus li:nth-child(even), ul.SlidingList li:nth-child(even), .JobList-mobile li:nth-child(even)  {background-color:#fff; border-left:6px solid #A09F9F}
+ul#MobileAbtus li:nth-child(odd), ul.SlidingList li:nth-child(odd), .JobList-mobile li:nth-child(odd) {border-left:6px solid #cd3333}
+ul#MobileAbtus li, .JobList-mobile li{border-bottom:1px solid #dadada;float:left;width:100%}
+.rowlist{margin:0px}
+.rowlist .col-md-3 img{height:38px; width:38px; float:left; margin:10px 10px 7px 10px}
+.rowlist div.col-md-9, .rowlist .col-md-3{float:left}
+.datatools .mobile-link{margin:-42px 5px 0 0}
+.rowlist h1{font-size:1em;margin:16px 0 0}
+.footer{background-color:#fff}
+.ContactHr hr{margin:0px}
+.ContactLabel, .ContactInfo{padding:0px 5px}
+.ContactLabel form{border:0px}
+.DataToolsBanner h1{font-size:1em;width:55%}
+div.SearchBox input[type=text],div.SearchBox input[type=submit]{width:100%;float:left;margin:0px}
+.SearchResults{padding:10px 10px 30px 10px}
+h3.Searchfor{padding:10px}
+.jobs-header h3{margin-top:0px}
+h3.IdeadText{font-size:0.8em;line-height:15px;width:75%}
+/*Career*/
+#MobileAbtus > #meet { border: 0 none; padding:0px 5px;}
+#MobileAbtus > #career { border: 0 none; background:#d0d0ce; padding:0px 5px;}
+.resources_tile { padding: 30px; width: 90%; margin: 0 0 30px;}
+#career .demoSpan1 { display: none;}
+.careerHead{width:57%; font-size:1em;line-height:1.2em}
+#navbar { background: #fff none repeat scroll 0 0;  z-index: 55555;}
+.carrertiles .btn-red {display:block;width:100%; margin:10% 0 0}
+h3.Head-weBit{width:75% !important}
+}
+@media screen and (min-device-width: 320px) and (max-width: 568px) and (orientation:landscape){
+div.BlogPanel .ResourcesBlock{margin:2% !important}	
+}
+@media screen and (min-width: 375px) and (max-width: 667px) and (orientation:landscape){
+div.BlogPanel .ResourcesBlock{margin:3% 4%; }
+div.slider-text{padding-top:6%}
+}
+@media screen and (min-width: 320px) and (max-width: 568px) and (orientation:landscape){
+div.slider-text{padding-top:6%}
+}
+@media only screen and (min-device-width: 768px)  and (max-device-width: 1024px) and (orientation:portrait){
+.HideTags, .HideAuthor{display:none}
+.BlogPanel .ResourcesBlock{margin: 10px 5px;width: 234px;}
+.BlogPage{padding:0px}
+.searchbox{width:26%}
+.centerBtn a{margin:10px 0;}
+.DataToolsBanner h1{font-size:2em; margin:4% 0 0;line-height:47px;}
+.DataToolsBanner h3{font-size:1em; margin:0px; line-height:25px;}
+.rowlist .col-md-3,.rowlist .col-md-9{display:table-cell;float:left}
+.rowlist .col-md-3{width:20%;}
+.rowlist .col-md-9{width:78%;}
+.rowlist .col-md-9 h1{margin-top:0px}
+.rowlist .col-md-3 img{width:130px; height:auto}
+h3.CarIntro-ipad{margin: 0px;font-size: 1em;line-height: 24px;}
+
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+html,body{overflow-x:hidden; -webkit-overflow-scrolling: touch}
+.header, .fix-width{max-width:96%;width:100%}
+.InternalContent .col-md-3, .footermenus ul,.footermenus ul li,.banenrInner .col-md-3, .banenrInner .col-md-9 {float:left}
+.InternalContent .col-md-3{width:18%; }
+.InternalContent .col-md-3 img{width:120px; }
+.InternalContent .col-md-9{width:82%; display:table}
+.footerLogo img{width:100px;}
+.footermenus{margin-left:15%; width:100%;}
+.footermenus ul {display:table;}
+.footermenus ul li{width:150px;}
+.footermenus ul li > ul{width:auto}
+.carousel-caption{left:3%}
+.banenrInner{max-width:96%;}
+.banenrInner .col-md-9{width:72%;}
+.banenrInner .col-md-3{width:25%;}
+.ContactLabel form {border:0px}
+/* Landing pages like services*/
+.BannerImage img{min-height:20px}
+.BannerImageContent{padding-left:2%;}
+.searchbox{width:19%}
+.section-title h3, .page-header .col-md-3 > img{margin-top:30px}
+.page-header .banenrInner {padding-top:0px}
+.JobsList .col-sm-3 .JobContent{margin-right:10px}
+nav.menu-in ul li a{font-size:1em}
+.DataToolsBanner h1{width:59%}
+.DataToolsBanner h3{width:58%}
+.QualidiHead{margin:60px 0 0}
+}
+
+@media only screen and (min-device-width: 768px)  and (max-device-width: 1024px) and (orientation:landscape){
+div.BlogPanel {width:60%}
+div.HideTags{width:40%}	
+}
+@media screen and (min-width: 1364px){
+.carousel-inner>.item {height:84vh}
+.carousel-inner>.item>img {width:100%; height:auto; min-height:100%; /*object-fit:cover;object-position: 100% 0%;*/}
+}

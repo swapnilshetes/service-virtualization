@@ -1,0 +1,212 @@
+/*Fonts*/
+/*@import url("fonts/trade_gothic.css");*/
+/*Font Embedding*/
+@font-face {font-family: 'tradeBold';src: url('../fonts/2EF1CC_1_0.eot');src: url('../fonts/2EF1CC_1_0.eot?#iefix') format('embedded-opentype'),url('fonts/2EF1CC_1_0.woff2') format('woff2'),url('fonts/2EF1CC_1_0.woff') format('woff'),url('../fonts/2EF1CC_1_0.ttf') format('truetype');}
+
+@font-face {font-family: 'tradeLight';src: url('../fonts/2EF1CC_0_0.eot');src: url('../fonts/2EF1CC_0_0.eot?#iefix') format('embedded-opentype'), url('fonts/2EF1CC_0_0.woff2') format('woff2'), url('../fonts/2EF1CC_0_0.woff') format('woff'), url('../fonts/2EF1CC_0_0.ttf') format('truetype');}
+body,html{font-family: 'tradeLight' !important; text-rendering: optimizeLegibility !important;-webkit-font-smoothing: antialiased !important;- webkit-font-smoothing: subpixel-antialiased !important}
+/*Layout*/
+a{color:#da291c; text-decoration:none}
+.top-contact a{color:#da291c;margin-left:40px}
+.header, .fix-width, .slider-text {margin:0px auto; max-width:1152px; display:block;width:100%;}
+#topsearch {text-align:right}
+ul li{list-style:none}
+ul.nav {float:right}
+ul.nav > li { list-style-type:none; font-size:0.9em; font-weight:600}
+ul.nav > li a{color:#000; display:block; }
+ul.nav > li a:hover{color:#75787b;}
+ul.nav > li.active a{color:#da291c;}
+.searchbox{border-bottom:1px solid #eee; color:#000;  padding:5px; border-top:0;border-left:0;border-right:0; outline:none; width:17%}
+.widget-title{color:#666}
+.textwidget{color: #8e8e8e;margin: 13px 0;width: 95%;}
+.footer{background:#000; padding:36px 0;display:table;width:100%}
+.footerLogo {float:left}
+.footermenus {margin-left:25%}
+.footermenus ul{display: flex; margin: 0; padding: 0; list-style: outside none none; font-size:0.85em;}
+.footermenus ul>li{margin-right:2%; display:table; font-weight:bold;line-height:20px}
+.footermenus ul li > ul {display: table;  list-style: outside none none; margin: 0; padding: 0;width:165px}
+.footermenus ul a {color: #fff;}
+.footermenus ul li > ul li > a { font-weight: normal; }
+input.search-field {background: #d4d0cd none repeat scroll 0 0;border: 1px solid #c5c2c0;box-sizing: content-box;padding: 10px;color: #000; width:100%}
+.ssba-wrap{ margin:30px 0px 60px}
+.ssba-wrap span{border-radius:100%; margin-right:10px;display: block; float:left}
+.slide-white h1, .slide-white h3 {color:#fff; width:68%}
+.slide-black h1, .slide-black h3 {color:#000; width:65%}
+.navbar-default{margin-top:15px}
+.logo{margin-top:10px}
+.bottomlogo {display:none}
+.connect a {color:#da291c}
+.banner{display:block; width:100%}
+.InnerHeads h1,.InnerHeads p{display:table-cell; vertical-align:top}
+.InnerHeads h1{width:25%}
+.InnerHeads p{width:75%}
+.banenrInner{padding: 60px 0;}
+.banenrInner { display: flex;  margin: 0 auto; max-width: 1152px;  width: 100%;}
+.section-title{font-size: 3.35em;line-height: 68px;color: #fff;margin:0px 0 30px 0}
+span.subtitle{font-size: 2.13em;line-height: 46px;color: #fff; }
+.page-header{height: 300px;}
+.jobs-header{height:130px}
+.jobs-header h3{margin-top:30px}
+.page-header, .jobs-header { background: #da291c none repeat scroll 0 0; color: #fff;  width:100%; display: inline-block;} 
+.page-header .col-md-3 > img {border: 1px solid #fff;border-radius: 150px; height: 200px; width: 200px; float:right;}
+.blockquotes{font-size:1.4em; line-height:34px; color:#757878; border-bottom:1px solid #bfbfbf; padding: 3% 8%; font-family: tradeLight; width:84%; margin:0px auto}
+.InternalContent h1{color: #e41e1f;font-weight: bold; margin: 10px 0; padding: 0;  text-align: left; font-family: tradeLight; line-height:50px;}
+.InternalContent .col-md-9 p{margin:2% 0 3% 0}
+.InternalContent .col-md-3 img{margin-top:4%}
+.InternalContent .col-md-9 h2{color:inherit}
+.InternalContent .col-md-9 hr{margin:10px 0}
+.centerBtn a {margin:32% 0 0 28%}
+/* Sticky Navigation*/
+nav.menu-in{background-color:#fff;height:60px;line-height:60px;width:100%;display:table;margin:0px auto}
+nav.stick{position:fixed;top:0;z-index:10000; border-bottom:1px solid #eee; box-shadow:0px 0px 10px rgba(0,0,0,0.2)}
+nav.menu-in ul{list-style-type:none;margin:0;padding:0;text-align:center}
+nav.menu-in ul li{list-style:none;display:inline-block; padding:0 10px}
+nav.menu-in ul li a{padding:10px 0px 4px 0;font-size:1.2em;color:#000}
+nav.menu-in ul li a:hover{color:#757878}
+a.nav-active{color:#da291c;border-bottom:2px solid #da291c}
+ul.contentList li, .BlogContent li{ padding-left: 1em;text-indent: -.7em; display:flex; line-height:32px}
+ul.contentList li:before, .BlogContent li:before {content: "• ";color: #da291c; margin-right:5px;-moz-margin-end:20px }
+.GrayBg{background-color:#d4d0cd; display:table; width:100%}
+.ResourcesBlock{background-color:#fff; width:261px;}
+.ResourcesBlock .redbg{width:100%; height:147px; display:table; background-color:#da291c}
+.ResourcesBlock .redbg img{height:90px; width:auto; margin:10% 30%; border:1px solid #fff; border-radius:50%}
+.ResourcesBlock p{color: #757878;font-size:1.2em}
+.ResourcesBlock h5{padding-bottom:4%}
+.padding5px{padding:5%}
+.authorimg > img {border-radius: 150px;float: left;height: 60px;width: 60px;border:1px solid #d0d0ce}
+.authorinfo {display: inline-block;margin: 17px 0;vertical-align: bottom;bottom: 0;}
+.col-md-8 .authordesg{font-style:italic; color:#000; display:inline-block}
+.col-md-8.authorname{color:#75787b}
+.CenterTxt {text-align: center; margin:3% auto}
+.CenterTxt .ssba-wrap {display:inline-block; margin:0px}
+.RequestCons{background-color:#75787b; height:200px; display:table; width:100%}
+.RequestCons p,.RequestCons span{color:#fff;}
+.RequestCons p{font-size:2.04em }
+.RequestCons span{font-size:1.4em;}
+.mobile-link, .slidingContent{display:none}
+/* Banner-Service and other*/
+.BannerImageArea{position:relative; background:#000}
+.BannerImage img{width:100%; display:block; opacity:0.5}
+.BannerImageContent{position: absolute;top: 0px;width:100%}
+/*Blog Style*/
+.BlogPanel .ResourcesBlock{float:left; margin:10px 18px 15px 0; border:1px solid #757878}
+.BlogPanel .ResourcesBlock h5{color: #da291c !important;font-weight: bold;}
+.wp-tag-cloud { list-style: outside none none;  margin: 15px 0px;  padding: 0;}
+.wp-tag-cloud li {  border-bottom: 1px solid #757878; display: list-item; margin: 0px;  }
+.wp-tag-cloud li a:hover {background:#000; color:#fff;}
+.wp-tag-cloud .activeCrloud{ color: #fff; background: #da291c none repeat scroll 0 0; }
+.wp-tag-cloud li a { background: none repeat scroll 0 0 #fff; border-radius: 0px; color: #757878; cursor: pointer; display: block; padding: 4%;  text-decoration: none;    transition: background-color 0.5s ease 0s; text-transform:capitalize;}
+.authorSection{border: 1px solid #757878;margin-bottom: 60%;padding:0px 10px}
+.authorSection hr{margin:10px 0}
+.authorSection p{font-size:0.8em; line-height:18px}
+.BlogPage{padding:0px 15px}
+.BlogPage h1{font-size: 2em;line-height: 44px;margin:0 0 20px 0}
+.BlogPage h2{font-size:1.4em;color:inherit;line-height: 32px; margin:10px 0}
+.BlogPage a{color:#e15454; text-decoration:none}
+.blogtags > a::after {content: "I";padding: 0 10px}
+.MorelikeSection h1{padding-left:5%}
+.authorName {color: #da291c;}
+.blogDate::after {color: #757878;content: "I";padding: 0 10px;}
+.BlogContent{padding-top:20px}
+.BlogPage hr{margin:30px 0 }
+p.nextarrow{font-family:tradeBold}
+p.nextarrow:after {content: "➜";color:#e15454; font-size:1.4em; vertical-align:middle; margin:0 0 0 5px}
+.Blog-Next-Prev p{ text-align:right;font-size:0.9em; margin:5px 0}
+/*Jobs*/
+.JobsList .col-sm-3 .JobContent { border:1px solid #757878; padding:10px; height:320px; margin:40px 20px 40px 0;display:table}
+.JobsList .col-sm-3 h3{margin:0 0 10px 0;color:#757878;}
+.JobsDescription{margin:1% 0}
+.JobsDescription label, .ContactLabel {font-weight:inherit; display:inherit}
+.JobsDescription label span{font-family:'tradebold'; color:#000; display:block}
+.JobsDescription label span.data{font-family:'tradelight'; margin-bottom:20px}
+.ContactLabel label span{display:block;font-weight:normal}
+.ContactLabel label span.data{font-family:'tradelight'; margin-bottom:20px}
+.ContactLabel form{}
+.JobForm{margin:15px 0px 15px 10px; font-size:0.8em; border:1px solid #ccc;display:inline-block}
+.JobForm input[type=text]{background: #d0d0ce;padding: 6px 10px;border: none;width: 99.8%;color: #757878;-webkit-appearance: none;}
+.JobForm input[type=submit]{width:60%; padding:8px 10px;border-radius:18px; border:0px;-webkit-appearance: none;font-size:1.3em}
+.JobForm > div{width:100%;float:left;padding:10px; }
+.error{color:#da291c; font-size:0.8em}
+.ContactLabel label input[type=text], .ContactLabel label input[type=email], .ContactLabel label input[type=tel], .ContactLabel label textarea{
+background-color: #d0d0ce;border-radius: 0px;color: #000000;margin-top: 7px;max-width: 100%;padding: 20px;width: 550px;line-height: 16px;border:0px;outline:none;}
+div.ContactInfo{ padding:0 0 0 3%}
+
+/*Sprite images*/
+.sprite{background-image:url(../images/sprite.png);background-repeat:no-repeat}
+.sprite-facebook{width:30px;height:30px;background-position:-5px -5px}
+.sprite-google{width:30px;height:30px;background-position:-45px -5px}
+.sprite-linkedin{width:30px;height:30px;background-position:-5px -45px}
+.sprite-search{width:28px;height:27px;background-position:-45px -45px;display:inline-block;vertical-align:middle}
+.sprite-twitter{width:30px;height:30px;background-position:-85px -5px}
+/*other*/
+div.excelator, div.SearchBox {background-color:#d0d0ce; width:100%; float:left}
+.excelator img{float:right}
+.EmailSubscribe{background: #da291c;color: #fff;font-size: 1.4em;padding: 1% 3%;text-align: center;letter-spacing: 0.04em;display:table; width:100%}
+.EmailSubscribe p > input[type=text],.EmailSubscribe p > input[type=submit]{font-size: 1em;}
+.EmailSubscribe p > input[type=text]{color:#000;padding: 10px;margin-right:-9px;border:0px}
+.EmailSubscribe p > input[type=submit]{background: transparent;border: 1px solid #fff;color: #fff;padding: 9px 20px;}
+.MorelikeSection {border: 1px solid #757878;margin-bottom: 10px;}
+.morelinksLeft > a{border-top: 1px solid #757878;color: #da291c;display: inline-block;font-size:0.9em;padding: 5%;width: 100%;}
+/*PageTransision*/
+#container {position: absolute;width: 100%;height: 100%;overflow: hidden;}
+.page {width: 100%;height: 100%;-webkit-transform: translate3d(0, 0, 0);transform: translate3d(0, 0, 0);}
+.page.page-left {-webkit-transform: translate3d(-100%, 0, 0);transform: translate3d(-100%, 0, 0);}
+.page.page-center{-webkit-transform: translate3d(0, 0, 0);transform: translate3d(0, 0, 0);}
+.page.page-right{-webkit-transform: translate3d(100%, 0, 0);transform: translate3d(100%, 0, 0);}
+.page.transition {-webkit-transition-duration: .25s;transition-duration: .25s;}
+/*AboutUs*/
+li#leadership, li#csr{background-color:#d0d0ce; padding:2% 0;width:100%; display:table }
+.col-xs-6.col-sm-3.leaderprof {margin-top: 35px;}
+.teamImg > img {width: 90%;height:auto;border-radius: 100%;padding: 0px;transition: all 0.7s ease;}
+.teamImg > img:hover{cursor: pointer;box-shadow: 0 1px 6px 7px #999999;border-radius: 100%;}
+div.row_one,div.row_two,div.row_three {display:inline-block}
+.teamName > h6 {color: #da291c;font-size: 1.2em;text-transform: none;margin: 15px 0 0;}
+.leadershipclass.col-xs-6.col-sm-3, .leadershipclasss.col-xs-6.col-sm-3,.leadershipclassss.col-xs-6.col-sm-3
+ {background: #326595;border: 1px solid #757878;padding: 0;position: relative;float: left; width: 100%;padding: 10px;text-align: left;color: #fff;margin:3% 0}
+ span.designation {display: inherit;padding:0 0 20px 0}
+.leadershipclass.col-xs-6.col-sm-3 .teamName h6, .leadershipclasss.col-xs-6.col-sm-3 .teamName h6,.leadershipclassss.col-xs-6.col-sm-3 .teamName h6{color:#fff}
+.leadershipclass .teamName, .leadershipclasss .teamName, .leadershipclassss .teamName{display:table}
+.leadershipclass .teamImg, .leadershipclasss .teamImg, .leadershipclassss .teamImg {display: table;float: left;position: relative;width: 18%;}
+div.closeinfo {border:2px solid #fff; border-radius:50%;height:32px;width:32px;text-align:center;display:inline-block;float:right;cursor:pointer;transition-duration: .25s;}
+li#difference, li#leadership, li#ourpeople, li#csr h1{text-align:center}
+li#difference h2{color:inherit}
+.inforGaph ul.RoundedList li span{font-family:tradebold;font-size:1.4em}
+.inforGaph ul.RoundedList li{display:inline-block;width:49%}
+.inforGaph ul.RoundedList li h2{border-radius: 50%;height: 200px;width: 200px;padding: 20px;display: inline-block;padding: 8% 0;text-align:center; margin:0 0 5% 0}
+.inforGaph ul.RoundedList li h3{font-size:1.1em; margin:0 0 30px 0}
+.inforGaph ul.RoundedList li.blue h2{border:2px solid #0095cb; color:#0095cb}
+.inforGaph ul.RoundedList li.red h2{border:2px solid #da291c; color:#da291c}
+.inforGaph ul.RoundedList li.green h2{border:2px solid #00b140; color:#00b140}
+.inforGaph {clear: left;display: inline-table;width: 100%;text-align: center;margin: 15px auto;}
+.no-opa{opacity:1 !important}
+/*DataTools*/
+ul.datatools li{}
+.rowlist{border-bottom:1px solid #eee;display:table; margin:50px 0}
+.rowlist h1{margin-top:0px}
+/*SearchBox*/
+div.SearchBox{margin: 0 0 3%;padding:0% 5% 3% 5%;}
+div.SearchBox input[type=text]{padding:10px;width: 85%;height:54px;line-height: 54px;border-radius:0px;border:0px; vertical-align:middle;float:left}
+div.SearchBox input[type=submit]{background: #da291c;border:0px;color: #fff;margin:0 0 0 -6px;padding:10px 15px;border-radius:0px; line-height:35px}
+div.SearchContainer h3{margin:0px; line-height:0px}
+div.SearchContainer p{font-size:0.8em}
+.moresearch {text-align: center;padding: 3% 0;margin:0 auto;clear:both}
+.moresearchHeading {color: #757878;}
+.moresearchHeading > h1 {color: #da291c;margin-bottom:5px;}
+.SearchNo {float: left;padding: 10px;width:100%}
+.SearchResults{border-bottom: 1px solid #d4d0cd;padding: 0 0 30px 0;}
+.SearchResults a.bloglink{font-size:0.8em}
+h3.Searchfor{border-bottom:1px solid #d4d0cd;width: 100%;padding: 0px 0 20px 0;display:table}
+/*Career*/
+li#meet, li#career{text-align: center;}
+li#career{background-color:#d0d0ce; padding:2% 0;width:100%; display:table;  margin: 5% 0; }
+.resources_tile {background: #fff none repeat scroll 0 0; display: inline-block; width: 100%; padding: 30px 30px 0px 0px;}
+.carrertiles { width: 100%;  display: table;  margin: 30px auto;  text-align: center;}
+
+.carrertiles .btn-red { display: inline-block;  margin: 10px 14px;}
+/*IE9 */
+.ie9 div.footermenus ul > li{margin-right:0px;width:15%;float:left}
+.ie9 div.footermenus ul li ul li a{display:inline-block; width:160px}
+
+
+
+

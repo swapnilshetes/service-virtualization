@@ -18,7 +18,7 @@ public class testproviderPact
 {	
 	
 	@TestTarget
-	public final Target target = new HttpTarget( 8112 );
+	public final Target target = new HttpTarget( 8112);
 	
 	@State("test GET")
 	public void toGetState() { }

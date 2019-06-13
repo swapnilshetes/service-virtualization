@@ -2,7 +2,7 @@
   "id" : "c78c932e-4984-4165-b416-5e9868176028",
   "name" : "get_responce_api",
   "request" : {
-    "url" : "/get_responce_api?apiAction=getUserInfo&id=2",
+    "url" : "/get_responce_api/getUserInfo/2",
     "method" : "GET"
   },
   "response" : {

@@ -160,6 +160,17 @@
 			<version>2.9.4</version>
 
 		</dependency>
+		<dependency>
+			<groupId>au.com.dius</groupId>
+			<artifactId>pact-jvm-provider-junit_2.11</artifactId>
+			<version>3.5.0</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.15</version>
+        </dependency>
 	</dependencies>
 	<build>
 		<plugins>

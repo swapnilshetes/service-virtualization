@@ -3,27 +3,31 @@
         "name": "APIService"
     },
     "consumer": {
-        "name": "test_consumer"
+        "name": "APIconsumer"
     },
     "interactions": [
         {
             "description": "GET REQUEST",
             "request": {
                 "method": "GET",
-                "path": "/apiPact"
+                "path": "/get_responce_api/getUserInfo/2"
             },
             "response": {
                 "status": 200,
                 "headers": {
-                    "Content-Type": "application/json"
+                    "Content-Type": "text/html; charset=UTF-8"
                 },
                 "body": {
-                    "apiAction": "userRegistration",
-                    "company": "test",
-                    "email": "swapnil.shete111@test.com",
-                    "full_name": "swapnilshete111",
-                    "job_title": "TestjobTitle",
-                    "message": "TestData"
+                    "registration_info": [
+                        {
+							"id": "2",
+							"full_name": "swapnilshete111",
+                            "company": "Bitwise",
+							"job_title": "TestjobTitle",
+                            "email": "swapnil.shete111@bitwiseglobal.com",
+                            "message": "TestData"
+                        }
+                    ]
                 }
             },
             "providerStates": [

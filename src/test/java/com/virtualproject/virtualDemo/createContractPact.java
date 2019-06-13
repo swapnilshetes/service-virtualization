@@ -17,13 +17,15 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.client.RestClientException;
 import org.springframework.web.client.RestTemplate;
 
+import static org.junit.Assert.*;
+import static org.testng.Assert.assertTrue;
+
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.util.HashMap;
 import java.util.Map;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+
 
 /**
  * Unit test for simple App.
@@ -36,15 +38,9 @@ public class createContractPact
 	 @Rule
 	 public PactProviderRuleMk2 provider = new PactProviderRuleMk2("APIService", "localhost", 8155 , this);
 	 
-	 @Pact(consumer = "test_consumer")
+	 @Pact(consumer = "APIconsumer")
 	 public RequestResponsePact createPact(PactDslWithProvider builder) throws JSONException {
-		mapPact = new JSONObject();
-		mapPact.put("apiAction", "userRegistration");
-		mapPact.put("full_name", "swapnilshete111");
-		mapPact.put("email", "swapnil.shete111@test.com");
-		mapPact.put("company", "test");
-		mapPact.put("message", "TestData");
-		mapPact.put("job_title", "TestjobTitle");
+		String jsonRsp = "{\"registration_info\":[{\"id\":\"2\",\"full_name\":\"swapnilshete111\",\"company\":\"Bitwise\",\"job_title\":\"TestjobTitle\",\"email\":\"swapnil.shete111@bitwiseglobal.com\",\"message\":\"TestData\"}]}";
 			
 	     Map<String, String> headers = new HashMap<String, String>();
 	     headers.put("Content-Type", "application/json");
@@ -52,12 +48,12 @@ public class createContractPact
 	     return builder
 	       .given("test GET")
 	         .uponReceiving("GET REQUEST")
-	         .path("/apiPact")
+	         .path("/get_responce_api/getUserInfo/2")
 	         .method("GET")
 	       .willRespondWith()
 	         .status(200)
 	         .headers(headers)
-	         .body(mapPact.toString()).toPact();
+	         .body(jsonRsp).toPact();
 	        
 	 }
 	 
@@ -65,14 +61,15 @@ public class createContractPact
     @PactVerification()
     public void givenGet_whenSendRequest_shouldReturn200WithProperHeaderAndBody() throws RestClientException, URISyntaxException, ClientProtocolException, IOException {
  		//System.out.println(provider.getUrl().toString() + "/get_responce_api?apiAction=getUserInfo&id=2");
- 		String url=String.format("http://localhost:%d/apiPact", 8155);
-        System.out.println("using url: "+url);
+ 		String url=String.format("http://localhost:%d/get_responce_api/getUserInfo/2", 8155);
+      
         ResponseEntity<String> response = new RestTemplate()
 			      .getForEntity(url, String.class);
-        System.out.println(response.toString());
-		 	assertEquals(response.getStatusCode().value(), 200 );
-			assertTrue(response.getHeaders().get("Content-Type").contains("application/json"));
-			//assertTrue(response.getBody().contains("registration_info"));
+        	System.out.println("Responce Body " + response.getBody());
+        	assertEquals(response.getStatusCode().value(), 200 );
+        	assertTrue(response.getHeaders().get("Content-Type").contains("application/json"));
+        	assertTrue(response.getBody().contains("registration_info"));
+        
     }
 }
 	

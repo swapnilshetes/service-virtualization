@@ -1,0 +1,23 @@
+{
+  "id" : "c78c932e-4984-4165-b416-5e9868176028",
+  "name" : "get_responce_api",
+  "request" : {
+    "url" : "/get_responce_api?apiAction=getUserInfo&id=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"registration_info\":[{\"id\":\"2\",\"full_name\":\"swapnilshete111\",\"company\":\"Bitwise\",\"job_title\":\"TestjobTitle\",\"email\":\"swapnil.shete111@bitwiseglobal.com\",\"message\":\"TestData\"}]}",
+    "headers" : {
+      "Date" : "Tue, 11 Jun 2019 12:54:17 GMT",
+      "Server" : "Apache/2.4.27 (Win64) PHP/7.1.9",
+      "X-Powered-By" : "PHP/7.1.9",
+      "Keep-Alive" : "timeout=5, max=100",
+      "Connection" : "Keep-Alive",
+      "Content-Type" : "text/html; charset=UTF-8"
+    }
+  },
+  "uuid" : "c78c932e-4984-4165-b416-5e9868176028",
+  "persistent" : true,
+  "insertionIndex" : 2
+}

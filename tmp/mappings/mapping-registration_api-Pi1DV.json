@@ -1,0 +1,25 @@
+{
+  "id" : "5d030a60-d3f3-38df-9725-676774c26ee2",
+  "request" : {
+    "url" : "/registration_api",
+    "method" : "POST",
+    "bodyPatterns" : [ {
+      "equalToJson" : "{\"full_name\":\"swapnilshete111\",\"apiAction\":\"userRegistration\",\"company\":\"test\",\"message\":\"TestData\",\"job_title\":\"TestjobTitle\",\"email\":\"swapnil.shete111@test.com\"}",
+      "ignoreArrayOrder" : true,
+      "ignoreExtraElements" : true
+    } ]
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-registration_api-Pi1DV.txt",
+    "headers" : {
+      "Date" : "Mon, 03 Jun 2019 09:29:17 GMT",
+      "Server" : "Apache/2.4.27 (Win64) PHP/7.1.9",
+      "X-Powered-By" : "PHP/7.1.9",
+      "Keep-Alive" : "timeout=5, max=100",
+      "Connection" : "Keep-Alive",
+      "Content-Type" : "text/html; charset=UTF-8"
+    }
+  },
+  "uuid" : "5d030a60-d3f3-38df-9725-676774c26ee2"
+}

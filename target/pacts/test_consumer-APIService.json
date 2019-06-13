@@ -1,0 +1,44 @@
+{
+    "provider": {
+        "name": "APIService"
+    },
+    "consumer": {
+        "name": "test_consumer"
+    },
+    "interactions": [
+        {
+            "description": "GET REQUEST",
+            "request": {
+                "method": "GET",
+                "path": "/apiPact"
+            },
+            "response": {
+                "status": 200,
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "body": {
+                    "apiAction": "userRegistration",
+                    "company": "test",
+                    "email": "swapnil.shete111@test.com",
+                    "full_name": "swapnilshete111",
+                    "job_title": "TestjobTitle",
+                    "message": "TestData"
+                }
+            },
+            "providerStates": [
+                {
+                    "name": "test GET"
+                }
+            ]
+        }
+    ],
+    "metadata": {
+        "pact-specification": {
+            "version": "3.0.0"
+        },
+        "pact-jvm": {
+            "version": "3.5.10"
+        }
+    }
+}
